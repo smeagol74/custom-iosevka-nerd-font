@@ -3,7 +3,7 @@ ARG NODE_VER=14
 ARG PREMAKE_VER=5.0.0-alpha15
 ARG OTFCC_VER=0.10.4
 # Check https://github.com/be5invis/Iosevka/releases for font version
-ARG FONT_VERSION=4.0.0
+ARG FONT_VERSION=10.2.0
 
 ################################################################
 

@@ -2,14 +2,15 @@
 family = "Iosevka Custom"
 spacing = "term"
 serifs = "sans"
+no-cv-ss = false
 
 [buildPlans.iosevka-custom.variants.design]
-nine = "open-contour"
-i = "serifed-flat-tailed"
+g = "double-storey"
 l = "serifed-flat-tailed"
-zero = "dotted"
-asterisk = "hexlow"
-m = "shortleg"
+m = "short-leg"
+one = "base-flat-top-serif"
+three = "flat-top"
+asterisk = "hex-low"
 percent = "dots"
  
 ###################################################################################################
@@ -48,8 +49,8 @@ css   = 700
 # Format: <upright|italic|oblique> = <"normal"|"italic"|"oblique">
 # When this section is absent, all slants would be built.
 
-[buildPlans.iosevka-custom.slants]
-upright = "normal"
+#[buildPlans.iosevka-custom.slants]
+# upright = "upright"
 # italic = "italic"
 # oblique = "oblique"
 
